@@ -12,3 +12,5 @@ Implemented following Data Structures using Java Language :
 9.  BinarySearch Tree
 10. AVL Tree
 11. Splay Tree
+12. Disjoint Sets
+13. Red-Black Tree
