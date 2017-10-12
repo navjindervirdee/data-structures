@@ -9,8 +9,10 @@ Implemented following Data Structures using Java Language :
 6.  Stack using Array and LinkedList.
 7.  Queue using Array and LinkedList.
 8.  Dequeue - Double Sided Queue.
-9.  BinarySearch Tree
-10. AVL Tree
-11. Splay Tree
-12. Disjoint Sets
-13. Red-Black Tree
+9.  Priority-Queue using Max-Heap Property.
+10. BinarySearch Tree
+11. AVL Tree
+12. Splay Tree
+13. Disjoint Sets
+14. Red-Black Tree
+15. PriorityQueue
