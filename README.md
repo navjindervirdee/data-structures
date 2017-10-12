@@ -15,4 +15,4 @@ Implemented following Data Structures using Java Language :
 12. Splay Tree
 13. Disjoint Sets
 14. Red-Black Tree
-15. PriorityQueue
+
