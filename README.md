@@ -16,7 +16,7 @@ Implemented following Data Structures using Java Language :
 13. Disjoint Sets
 14. Red-Black Tree
 
-1.  Arrays : An array is a systematic arrangement of similar objects, usually in rows and columns.
+Arrays : An array is a systematic arrangement of similar objects, usually in rows and columns.
     Functions : 1. Insertion in an array.
 		2. Deletion in an array.
 		3. Binary Search		
