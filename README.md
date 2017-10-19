@@ -15,10 +15,3 @@ Implemented following Data Structures using Java Language :
 12. Splay Tree
 13. Disjoint Sets
 14. Red-Black Tree
-
-Arrays : An array is a systematic arrangement of similar objects, usually in rows and columns.
-    Functions : 1. Insertion in an array.
-		2. Deletion in an array.
-		3. Binary Search		
-		4. Linear Search
-		5. Bubble Sort
