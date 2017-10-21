@@ -56,3 +56,5 @@ Implemented following Data Structures using Java Language :
    * All leaves (NIL) are black.
    * If a node is red, then both its children are black.
    * Every path from a given node to any of its descendant NIL nodes contains the same number of black nodes.
+ 
+* **Disjoint-Sets**: In computer science, a disjoint-set data structure, also called a union–find data structure or merge–find set, is a   data structure that keeps track of a set of elements partitioned into a number of disjoint (non-overlapping) subsets. It provides       near-constant-time operations to add new sets, to merge existing sets, and to determine whether elements are in the same set. In         addition to many other uses, disjoint-sets play a key role in Kruskal's algorithm for finding the minimum spanning tree of a graph.
