@@ -24,19 +24,22 @@ public class Stack{
 		Node node = new Node(number); //create new node.
 		System.out.println("Push data : " + number);
 
-		if(head==null){
-			head=node;
-			size++;
-			return;
-		}
-
-		Node temp = head;
-		while(temp.next!=null){
-			temp=temp.next ;
-		}
-		temp.next=node;
+		node.next = head;
+		head = node;
 		size++;
 	}
+
+	//method to get the element at top of the stack
+	static public int top(){
+		if(head==null){
+			System.out.println("Stack is Empty!");
+			return -1;
+		}
+		
+		System.out.println("Element at top of stack : " + head.key);
+		return head.key;
+	}
+
 
 	//function to remove topmost element from the stack.
 	static public int pop(){
@@ -47,22 +50,12 @@ public class Stack{
 		}
 
 		System.out.println("Pop Operation.");	
-		Node temp = head;
 
-		//if only single element is present in the stack.
-		if(head.next==null){
-			int temp1 = head.key;
-			head=null;
-			return temp1;
-		}
+		int temp = head.key;
+		head = head.next;
+		size--;
 
-		//if more than one element is present in the stack.
-		while(temp.next.next!=null){
-			temp=temp.next;
-		}
-		int temp1 = temp.next.key;
-		temp.next=null;
-		return temp1;
+		return temp;
 	}
 
 	//function to display the stack.
@@ -72,13 +65,22 @@ public class Stack{
 			System.out.println("Stack is empty.");
 			return;
 		}
-		System.out.print("Stack : ");
+
+		System.out.println();
+		System.out.println("Stack ");
 		Node temp=head;
 		while(temp!=null){
-			System.out.print(temp.key + " " );
+			System.out.println("----------");
+			System.out.println("|   " + temp.key + "   |");
 			temp=temp.next;
 		}
+		System.out.println("----------");
 		System.out.println();
+	}
+
+	//method to get the number of elements in the stack.
+	static public int getSize(){
+		return size;
 	}
 	
 	static public void main(String [] args){
@@ -88,6 +90,7 @@ public class Stack{
 		stack.push(30);            //push num = 30
 
 		stack.display();           //display stack.
+		stack.top();
 		
 		stack.pop();               //pop topmost element
 		stack.pop();               //pop topmost element
