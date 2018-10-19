@@ -164,11 +164,11 @@ public class BinarySearchTree{
 				continue;
 			}
 		}
-		if(result==false){
-			return false;
+		if(result){
+			return true;
 		}
 		else{
-			return true;
+			return false;
 		}
 	}
 }
